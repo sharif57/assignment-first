@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header relater style */
+.banner {
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/Banner\ Image.png');
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    height: 600px;
+    border-radius: 16px;
+
+}
+
+.banner-content h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+}
+
+.banner-content h1 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding: 16px 177px 344px 344px;
+}
