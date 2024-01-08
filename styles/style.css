@@ -206,18 +206,24 @@ main {
     padding-top: 16px;
 }
 
-.pic-details {
-    padding-top: 48px;
+.container1{
+    margin-top: 48px;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.pic-details img {
-    border-radius: 16px;
-    height: 100%;
-    width:416px;
-    padding-right: 24px;
-    padding-bottom: 24px;
+.img-1, .img-2{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+#img4 ,#img5 ,#img7 ,#img8{
+    margin-left: 24px;
+}
+.container1 img:hover{
+    border: 1px solid rgb(133, 129, 129);
+    border-radius: 19px;
 }
 
 .mail-container {
