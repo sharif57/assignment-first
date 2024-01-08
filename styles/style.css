@@ -29,13 +29,14 @@ header {
     padding-top: 177px;
 }
 
-.banner-content h1 {
+.banner-content .h1-text {
     color: #FFF;
     font-family: Merriweather;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
-    padding: 16px 177px 344px 344px;
+    width: 632px;
+    padding: 16px 177px 344px 344px; 
 }
 
 .header-title {
@@ -218,26 +219,26 @@ main {
 
 .pic-details {
     padding-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .pic-details img {
-
     border-radius: 16px;
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width:416px;
     padding-right: 24px;
     padding-bottom: 24px;
+
 }
 
-.pic-details img:hover {
-    border: 2px solid #FFF;
-}
 
 .mail-container {
     margin-top: 120PX;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     height: 616px;
+    margin-bottom: 120px;
 }
 
 .mail-title {
@@ -297,4 +298,68 @@ form {
     padding-top: 48px;
 
     height: 90px;
+}
+
+footer {
+    background: #070211;
+    height: 600px;
+    padding-top: 120px;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.information {
+    display: flex;
+    gap: 560px;
+    padding-top: 120px;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.information p , .last-div {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.information h4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.phone img {
+    display: inline-block;
+    background-size: contain;
+    flex: right;
+    align-items: center;
+}
+
+.h {
+    margin-top: 50px;
+    margin-left: 140px;
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.15);;
+}
+
+.icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.last-div{
+    gap: 830px;
+    padding-top: 50px;
+    color: #FFF;
+    display: flex;
+    margin-left: 175px;
+
 }
