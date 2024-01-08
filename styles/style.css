@@ -99,18 +99,12 @@ main {
     font-family: Merriweather;
     font-size: 50px;
     font-weight: 900;
-    /* line-height: 88px; */
-    /* padding-right: 550px; */
     padding-top: 126px;
     width: 500px;
-
-
-
 }
 
 .container-title {
     padding-left: 80px;
-
 }
 
 .main-container p {
@@ -119,7 +113,6 @@ main {
     font-family: Inter;
     font-size: 18px;
     margin-top: 24px;
-
 }
 
 .main-container button {
@@ -138,7 +131,6 @@ main {
 .main-container {
     display: flex;
     gap: 300px;
-
 }
 
 .main-container img {
@@ -153,10 +145,7 @@ main {
     height: 482px;
     margin-top: 120px;
     display: flex;
-    /* margin-left: 100px;
-    margin-right: 140px; */
     display: block;
-
 }
 
 .section-container h3 {
@@ -229,9 +218,7 @@ main {
     width:416px;
     padding-right: 24px;
     padding-bottom: 24px;
-
 }
-
 
 .mail-container {
     margin-top: 120PX;
@@ -286,6 +273,7 @@ main {
     background: #FFF;
     width: 336px;
     height: 72px;
+    border: 2px solid black;
     color: rgba(7, 2, 17, 0.30);
     font-family: Inter;
     text-align: start;
@@ -296,7 +284,6 @@ main {
 
 form {
     padding-top: 48px;
-
     height: 90px;
 }
 
@@ -361,5 +348,4 @@ footer {
     color: #FFF;
     display: flex;
     margin-left: 175px;
-
 }
